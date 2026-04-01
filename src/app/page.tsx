@@ -195,7 +195,7 @@ function HeroSection() {
         style={{
           backgroundImage: `
             linear-gradient(to bottom, rgba(28,25,23,0.4) 0%, rgba(28,25,23,0.7) 60%, rgba(28,25,23,1) 100%),
-            url('/images/hero-main.webp')
+            url('/images/hero-main.jpg')
           `,
           transform: `translateY(${parallaxOffset}px)`,
         }}
@@ -963,7 +963,7 @@ function AboutSection() {
       <div
         className="absolute right-0 top-0 w-1/2 h-full opacity-10 bg-cover bg-center hidden sm:block"
         style={{
-          backgroundImage: `url('/images/hero-main.webp')`,
+          backgroundImage: `url('/images/haircut-1.jpg')`,
           maskImage: "linear-gradient(to left, black, transparent)",
           WebkitMaskImage: "linear-gradient(to left, black, transparent)",
         }}
@@ -978,7 +978,7 @@ function AboutSection() {
               <div
                 className="aspect-[4/5] sm:aspect-[4/5] bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/images/hero-main.webp')`,
+                  backgroundImage: `url('/images/barber-matt.jpg')`,
                 }}
               />
               {/* Accent block - hidden on mobile */}
