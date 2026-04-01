@@ -195,7 +195,7 @@ function HeroSection() {
         style={{
           backgroundImage: `
             linear-gradient(to bottom, rgba(28,25,23,0.4) 0%, rgba(28,25,23,0.7) 60%, rgba(28,25,23,1) 100%),
-            url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2000&auto=format&fit=crop')
+            url('/images/hero-main.webp')
           `,
           transform: `translateY(${parallaxOffset}px)`,
         }}
@@ -963,7 +963,7 @@ function AboutSection() {
       <div
         className="absolute right-0 top-0 w-1/2 h-full opacity-10 bg-cover bg-center hidden sm:block"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1200&auto=format&fit=crop')`,
+          backgroundImage: `url('/images/hero-main.webp')`,
           maskImage: "linear-gradient(to left, black, transparent)",
           WebkitMaskImage: "linear-gradient(to left, black, transparent)",
         }}
@@ -978,7 +978,7 @@ function AboutSection() {
               <div
                 className="aspect-[4/5] sm:aspect-[4/5] bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=800&auto=format&fit=crop')`,
+                  backgroundImage: `url('/images/hero-main.webp')`,
                 }}
               />
               {/* Accent block - hidden on mobile */}
